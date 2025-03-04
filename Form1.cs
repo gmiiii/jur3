@@ -100,4 +100,5 @@ namespace jur3
             input.Text = hasil.ToString();
         }
     }
+    //final
 }
