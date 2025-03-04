@@ -47,6 +47,7 @@ namespace jur3
 
         private void no_0_Click(object sender, EventArgs e)
         {
+   
             input.Text += "0";
         }
 
@@ -87,7 +88,7 @@ namespace jur3
 
         private void add_Click(object sender, EventArgs e)
         {
-            int x = Convert.ToInt32(input.Text);
+            int x = int.Parse(input.Text);
             hasil += x;
 
             input.Text = "";
@@ -95,9 +96,10 @@ namespace jur3
 
         private void equal_Click(object sender, EventArgs e)
         {
-            int x = Convert.ToInt32(input.Text);
+            int x = int.Parse(input.Text);
             hasil += x;
             input.Text = hasil.ToString();
+            
         }
     }
     //final
